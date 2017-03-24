@@ -10,12 +10,12 @@ DEBVERSION=$(date +%Y%m%d)
 CONTROL_FILE="Source: apt-now
 Section: admin
 Priority: optional
-Maintainer: idk <eyedeekay@i2pmail.org>
+Maintainer: Panto (Panto Linux Penetration Testing Distribution) <pantolinux@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
-Homepage: https://cmotc.github.io/apt-now/
-Vcs-Git: git@github.com:cmotc/apt-now.git
-Vcs-Browser: https://github.com/cmotc/apt-now
+Homepage: https://blackhatsec.org
+Vcs-Git: git@github.com:CyberSecII/KerbrosXenial.github.io.git
+Vcs-Browser: https://github.com/CyberSecII/KerbrosXenial.github.io
 
 Package: apt-now
 Architecture: all

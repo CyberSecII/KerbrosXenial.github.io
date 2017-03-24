@@ -3,7 +3,7 @@ Source: pkpage
 Binary: pkpage
 Architecture: all
 Version: 20170208-1
-Maintainer: idk <eyedeekay@i2pmail.org>
+Maintainer: Panto (Panto Linux Penetration Testing Distribution) <pantolinux@gmail.com>
 Homepage: https://cmotc.github.io/pkpage/
 Standards-Version: 3.9.5
 Vcs-Browser: https://github.com/cmotc/pkpage

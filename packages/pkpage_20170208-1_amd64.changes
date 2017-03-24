@@ -6,7 +6,7 @@ Architecture: source all
 Version: 20170208-1
 Distribution: unstable
 Urgency: medium
-Maintainer: idk <eyedeekay@i2pmail.org>
+Maintainer: Panto (Panto Linux Penetration Testing Distribution) <pantolinux@gmail.com>
 Changed-By: idk <idk@fireaxe.local>
 Description:
  pkpage     - Generates a Markdown-formatted description of a software package

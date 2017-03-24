@@ -3,11 +3,11 @@ Source: apt-now
 Binary: apt-now
 Architecture: all
 Version: 20170208-1
-Maintainer: idk <eyedeekay@i2pmail.org>
-Homepage: https://cmotc.github.io/apt-now/
+Maintainer: Panto (Panto Linux Penetration Testing Distribution) <pantolinux@gmail.com>
+Homepage: https://blackhatsec.org
 Standards-Version: 3.9.5
-Vcs-Browser: https://github.com/cmotc/apt-now
-Vcs-Git: git@github.com:cmotc/apt-now.git
+Vcs-Browser: https://github.com/CyberSecII/KerbrosXenial.github.io
+Vcs-Git: git@github.com:CyberSecII/KerbrosXenial.github.io.git
 Build-Depends: debhelper (>= 9)
 Package-List:
  apt-now deb admin optional arch=all
