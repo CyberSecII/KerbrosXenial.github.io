@@ -1,8 +1,8 @@
-Origin: cmotc.github.io
-Label: cmotc.github.io
-Codename: rolling
+Origin: cybersecii.github.io
+Label: cybersecii.github.io
+Codename: xenial
 Architectures: amd64 i386 armhf source
 Components: main
-SignWith: C0CEEE297B5FE45FF610AAC6F05F85FA446C042B
-DebOverride: override.testing
-DscOverride: override.testing
+SignWith: 79C31997
+DebOverride: override.xenial
+DscOverride: override.xenial
