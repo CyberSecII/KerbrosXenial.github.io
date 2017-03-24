@@ -323,8 +323,7 @@ $CODENAME\n
 ###Description:\n
 $TRIMMED_REPODESC\n
 "
-        INDEX_FOOTER="This repository was generated with [apt-now](https://cmotc.github.io/apt-now), a static site
-generator which emits apt repositories
+        INDEX_FOOTER="This repository was generated Black Hat Sec
 
 ###to add this repository to your Debian-based system:
 
