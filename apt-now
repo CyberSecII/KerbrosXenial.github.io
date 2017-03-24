@@ -10,12 +10,12 @@ USE_I2P="NO"
 
 CURDIR=$(pwd)
 
-REPONAME="KerbrosXenial.github.io"
-REPODESC="Repository for Kerberos, a system for penetration testing."
-ORIGIN="cybersecii.github.io"
+REPONAME="Kerberos Repository"
+REPODESC="Repository for kerberos, a system for penetration testing."
+ORIGIN="KerbrosXenial.github.io"
 CODENAME="xenial"
 REPOARCH="amd64 i386 armhf source"
-POLICY="main"
+POLICY="main contrib universe"
 KEY="79C31997"
 OVERRIDE="override.xenial"
 
@@ -323,7 +323,8 @@ $CODENAME\n
 ###Description:\n
 $TRIMMED_REPODESC\n
 "
-        INDEX_FOOTER="This repository was generated Black Hat Sec
+        INDEX_FOOTER="This repository was generated with [apt-now](https://cmotc.github.io/apt-now), a static site
+generator which emits apt repositories
 
 ###to add this repository to your Debian-based system:
 

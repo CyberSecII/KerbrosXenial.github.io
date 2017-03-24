@@ -1,8 +1,8 @@
-Origin: cybersecii.github.io
-Label: cybersecii.github.io
+Origin: git@github.com:CyberSecII/xenial.git
+Label: git@github.com:CyberSecII/xenial.git
 Codename: xenial
 Architectures: amd64 i386 armhf source
-Components: main
+Components: main contrib universe
 SignWith: 79C31997
 DebOverride: override.xenial
 DscOverride: override.xenial
