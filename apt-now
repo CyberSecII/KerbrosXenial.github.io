@@ -400,11 +400,11 @@ if [ "$DRY_RUN" = "NO" ]; then
 			if [ "$ORG" = "YES" ]; then
                                 git config --global user.email "darkshadow8880@gmail.com"
                                 git config --global user.name "CyberSecII"
-				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push origin master
+				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push -f origin master
 			else
                                 git config --global user.email "darkshadow8880@gmail.com"
                                 git config --global user.name "CyberSecII"
-				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push origin gh-pages
+				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push -f origin gh-pages
 			fi
 		else
 			echo "Fatal Error, this is not a git repository. Please create a git repository and enable github pages to use this script."
@@ -440,7 +440,7 @@ if [ "$USE_TOR" = "YES" ]; then
     sudo service tor restart
 fi
 
-if [ "$USE_I2P" = "YES" ]; then
+if [ "$USE_I2P" = "YES" ]; then 
     if [ ! sudo cat /var/lib/i2p/i2p-config/eepsite/contexts/base-context.xml | grep "$CURDIR" ]; then
         sudo sed -i "s|/var/lib/i2p/i2p-config/eepsite/docroot/|$CURDIR|"
     fi
