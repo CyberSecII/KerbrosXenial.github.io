@@ -73,16 +73,16 @@ date</p>
 </code></pre>
 <pre><code>    Repository for kerberos, a system for penetration testing.
 
-    ###to add this repository to your Debian-based system:
+    ###to add this repository to your ubuntu-based system:
 
-    echo "deb https://git@github.com:CyberSecII/xenial.git/debian xenial main" | sudo tee /etc/apt/source.list.d/git@github.com:CyberSecII.xenial.git.list
+    echo "deb https://git@github.com:CyberSecII/xenial.git/ubuntu xenial main" | sudo tee /etc/apt/source.list.d/git@github.com:CyberSecII.xenial.git.list
 
     wget -qO - https://git@github.com:CyberSecII/xenial.git/git@github.com:CyberSecII.xenial.git.gpg.key | sudo apt-key add -
 
 
     ###alternatively via Tor:
 
-    echo "deb http:///debian xenial main" | sudo tee /etc/apt/source.list.d/.list
+    echo "deb http:///ubuntu xenial main" | sudo tee /etc/apt/source.list.d/.list
 
     wget -qO - http:///git@github.com:CyberSecII.xenial.git.gpg.key | sudo apt-key add -
 </code></pre>
