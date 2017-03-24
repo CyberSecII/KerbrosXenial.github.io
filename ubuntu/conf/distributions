@@ -1,5 +1,5 @@
-Origin: git@github.com:CyberSecII/xenial.git
-Label: git@github.com:CyberSecII/xenial.git
+Origin: KerbrosXenial.github.io
+Label: KerbrosXenial.github.io
 Codename: xenial
 Architectures: amd64 i386 armhf source
 Components: main contrib universe
